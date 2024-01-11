@@ -136,8 +136,8 @@
   },
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": true,
-  // "editor.fontFamily": "JetBrains Mono",
-  "editor.fontFamily": "SF Mono",
+  "editor.fontFamily": "JetBrains Mono",
+  // "editor.fontFamily": "SF Mono",
   // "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 4,
@@ -216,6 +216,7 @@
     "scminput": false
   },
   "console-ninja.featureSet": "Community",
-  "workbench.colorTheme": "CodeSandbox Black",
-  "window.zoomLevel": 2
+  "workbench.colorTheme": "Min Dark",
+  "window.zoomLevel": 1,
+  "symbols.hidesExplorerArrows": false
 }
