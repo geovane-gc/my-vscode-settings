@@ -1,13 +1,29 @@
 {
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains Mono",
+
+  /* These fonts are alternatives to JetBrains Mono
+   * "editor.fontFamily": "SF Mono",
+   * "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
+   */
+
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "all",
+  "editor.fontLigatures": false,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.wrapTabs": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.wrapTabs": true,
-  "editor.fontSize": 15,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [80, 120],
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
   "files.associations": {
@@ -17,7 +33,6 @@
     ".env.*": "dotenv",
     ".prettierrc": "json"
   },
-  "screencastMode.onlyKeyboardShortcuts": true,
   "cSpell.userWords": [
     "chakra",
     "IUGU",
@@ -29,9 +44,7 @@
     "upsert"
   ],
   "editor.parameterHints.enabled": false,
-  "editor.renderLineHighlight": "gutter",
   "cSpell.language": "en,pt,pt-BR",
-  "editor.lineHeight": 26,
   "material-icon-theme.languages.associations": {
     "dotenv": "tune"
   },
@@ -67,8 +80,6 @@
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "workbench.editor.labelFormat": "short",
-  "editor.fontLigatures": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -125,7 +136,6 @@
     "!scss"
   ],
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
   "git.mergeEditor": false,
   "editor.accessibilitySupport": "off",
@@ -134,11 +144,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": true,
-  "editor.fontFamily": "JetBrains Mono",
-  // "editor.fontFamily": "SF Mono",
-  // "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 4,
   "security.workspace.trust.untrustedFiles": "newWindow",
@@ -149,10 +154,7 @@
     "**/.svn": true,
     "**/.git": true
   },
-  "tabnine.experimentalAutoImports": true,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
@@ -184,11 +186,6 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "powermode.shake.enabled": false,
-  "powermode.enabled": true,
-  "powermode.presets": "flames",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "powermode.combo.location": "off",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": true,
   "git.autofetch": true,
@@ -214,9 +211,5 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  },
-  "console-ninja.featureSet": "Community",
-  "workbench.colorTheme": "Min Dark",
-  "window.zoomLevel": 1,
-  "symbols.hidesExplorerArrows": false
+  }
 }
