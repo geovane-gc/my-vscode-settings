@@ -17,7 +17,7 @@
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "workbench.editor.wrapTabs": true,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
@@ -55,7 +55,9 @@
     "tsconfig.json": "tune",
     "*.webpack.js": "webpack",
     "*.proto": "3d",
-    "ormconfig.json": "database"
+    "ormconfig.json": "database",
+    "*.resolver.ts": "typescript",
+    "*.resolver.js": "javascript"
   },
   "material-icon-theme.activeIconPack": "nest",
   "editor.suggestSelection": "first",
@@ -194,7 +196,6 @@
   "[markdown]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -212,5 +213,10 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "redhat.telemetry.enabled": false
 }
