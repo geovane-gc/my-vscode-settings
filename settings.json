@@ -1,16 +1,40 @@
 {
-  "workbench.colorTheme": "Min Dark",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "JetBrains Mono",
-
-  /* These fonts are alternatives to JetBrains Mono
-   * "editor.fontFamily": "SF Mono",
-   * "editor.fontFamily": "MonoLisa, Menlo, Monaco, 'Courier New', monospace",
-   */
-
+  "editor.smoothScrolling": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.rulers": [80, 120],
+  "workbench.activityBar.orientation": "vertical",
   "workbench.startupEditor": "newUntitledFile",
   "editor.renderLineHighlight": "all",
   "editor.fontLigatures": false,
@@ -20,7 +44,7 @@
   "breadcrumbs.enabled": true,
   "workbench.editor.wrapTabs": true,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -36,13 +60,22 @@
     ".prettierrc": "json"
   },
   "cSpell.userWords": [
+    "caas",
+    "Caas",
     "chakra",
+    "datadoghq",
+    "dtos",
+    "esbuild",
+    "fifo",
+    "intg",
     "IUGU",
+    "Liqi",
     "middlewares",
     "mixpanel",
     "Onboarded",
     "prefetch",
     "rocketseat",
+    "sbox",
     "upsert"
   ],
   "editor.parameterHints.enabled": false,
@@ -64,22 +97,22 @@
   "explorer.confirmDelete": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
-
   "[javascriptreact]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "[prisma]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "Prisma.prisma"
   },
-
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "diffEditor.ignoreTrimWhitespace": false
+  },
   "typescript.suggest.autoImports": true,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
@@ -201,10 +234,6 @@
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[astro]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
   "editor.inlineSuggest.enabled": true,
   "terminal.integrated.env.linux": {},
   "window.titleBarStyle": "custom",
@@ -217,6 +246,36 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "redhat.telemetry.enabled": false
+  "diffEditor.ignoreTrimWhitespace": true,
+  "redhat.telemetry.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "aws.suppressPrompts": {
+    "yamlExtPrompt": true
+  },
+  "git.confirmSync": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.cursorBlinking": "expand",
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "editor.minimap.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.colorCustomizations": {},
+  "yaml.schemas": {
+    "file:///home/geovane/.cursor-server/extensions/atlassian.atlascode-3.4.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "bf16126a-4184-4244-a12c-53bf4fffb283",
+      "enabled": true,
+      "name": "My liqi Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "7db320c6-8d73-45b1-b791-4994ae4a1a6e",
+      "monitor": true
+    }
+  ],
+  "remote.autoForwardPortsSource": "hybrid",
+  "workbench.colorTheme": "bernadoque-theme"
 }
